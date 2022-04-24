@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container{
+    font-family: 'Magra', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+#botao{
+    text-align: center;  
+    margin-top: 10px; 
+    
+}
+
+
+#botao button{
+    border: none;
+    background-color: #993399;
+    width: 200px;
+    height: 60px;
+    border-radius: 0.2em;
+
+}
+
+button span{
+    color: white;
+}
+
+#titulo {
+    display: flex;
+}
+
+#titulo p{
+    font-size: 36px;
+    margin: 0;
+    margin-left: 3px;
+}

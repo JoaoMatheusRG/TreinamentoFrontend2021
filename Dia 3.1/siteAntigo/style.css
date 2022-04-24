@@ -1,0 +1,69 @@
+/*******    Geral      *******/
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Magra', sans-serif;
+}
+
+span {
+    color: white;
+}
+
+/*******    Header      *******/
+
+header {
+    background-color: #A50010;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+/*******    Main      *******/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+
+#mainCard {
+    background-color: #A50010;
+    width: 468px;
+    height: 207px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#mainTitulo {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+button {
+    background-color: #A50010;
+    width: 468px;
+    height: 88px;
+    font-size: 36px;
+}
+
+/*******    Footer      *******/
+
+footer {
+    background-color: #A50010;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}

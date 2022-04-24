@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+h5{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#container{
+    font-family: 'Magra', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+    height: 564px;
+    background-color: #993399;
+    color: white;
+    font-weight: bold;
+}
+    
+
+#titulo{
+    padding: 30px;
+    text-align: center;
+    font-size: 48px;
+} 
+
+#divisor{
+    border: 1px solid white;
+}
+
+#squad{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}   
+
+#lider{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 5px 0px;
+}
+
+#squadTitulo, #liderTitulo{
+    
+    width: 20%;
+    margin-left: 50px;
+    font-size: 36px;
+    
+}
+
+#squadNome, #liderNome{
+
+    width: 45%;
+    text-align: center;
+    font-size: 27px;
+
+}
+
+
+#integrantes{
+    display: flex;
+    flex-direction: column;
+}
+
+#integrantesTitulo{
+    margin-left: 50px;
+    width: 50%;
+    font-size: 36px;
+}
+
+#integrantesNome{
+    text-align: center;
+    font-size: 27px;
+    margin: 10px;
+}

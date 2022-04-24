@@ -1,0 +1,81 @@
+/*******    Geral      *******/
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Magra', sans-serif;
+}
+
+h5 {
+    color: white;
+    margin: 0;
+}
+
+span {
+    color: white;
+}
+
+/*******    Header      *******/
+
+header {
+    background-color: #A50010;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+/*******    Main      *******/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+.container {
+    background-color: #A50010;
+    margin: 0 10px ;
+    width: 310px;
+    height: 314px;
+}
+
+.nome {
+    background-color: black;
+    position: relative;
+    bottom: 25px;
+    left: 70px;
+    max-width: 180px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.idade {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.time, .sobrenome {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 32px;
+}
+
+/*******    Footer      *******/
+
+footer {
+    background-color: #A50010;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}

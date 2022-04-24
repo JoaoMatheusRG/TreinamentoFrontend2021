@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+}
+
+#mainTitulo {
+    margin-top: 10px;
+    font-size: 32px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#mainCorpo input {
+    width: 90.5vw;
+    height: 5.5vh;
+    margin: 0 3.5vw;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+#mainCorpo input::placeholder {
+    font-size: 24px;
+}
+
+#mainCorpo button {
+    background-color: #00CED1;
+    border-radius: 5px;
+    width: 91.2vw;
+    height: 6vh;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3.5vw;
+    margin-top: 10px;
+}
+
+
+#container {
+    background-color: yellow;
+}
+
+#tarefas{
+    margin-top: 15px;
+    /*min-height: 220px;
+    max-height: 220px;*/
+    height: 30vh;
+}
+
+#tarefas ul{
+    display: flex;
+    max-width: 85vw;
+    flex-direction: row;
+}
+

@@ -1,0 +1,103 @@
+/*******    Geral      *******/
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Magra', sans-serif;
+}
+
+h5 {
+    color: Black;
+    margin: 0;
+}
+
+span {
+    color: black;
+}
+
+/*******    Header      *******/
+
+header {
+    background-color: #00CED1;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+/*******    Main      *******/
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+}
+
+#mainTitulo {
+    margin-top: 50px;
+    font-size: 36px;
+    margin-left: 25px;
+}
+
+#mainCorpo input {
+    width: 1089px;
+    height: 86px;
+    margin-right: 20px;
+    margin-left: 25px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+#mainCorpo input::placeholder {
+    font-size: 24px;
+}
+
+#mainCorpo button {
+    background-color: #00CED1;
+    border-radius: 5px;
+    width: 207px;
+    height: 86px;
+    border: none;
+    font-size: 24px;
+}
+
+.tarefas{
+    min-height: 200px;
+    max-height: 300px;
+    max-width: 99%;
+    overflow-y: scroll;
+}
+
+.tarefas li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.tarefas li h5{
+    font-size: 24px;
+}
+
+.tarefas li span{
+    margin-left: 10px;
+    font-weight: 0;
+    font-size: 24px;
+}
+
+
+/*******    Footer      *******/
+
+footer {
+    background-color: #00CED1;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}

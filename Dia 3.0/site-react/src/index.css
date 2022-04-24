@@ -1,0 +1,19 @@
+/*******    Geral      *******/
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Magra', sans-serif;
+}
+
+h5 {
+    color: white;
+    margin: 0;
+}
+
+span {
+    color: white;
+}
+
+
